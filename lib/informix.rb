@@ -280,7 +280,7 @@ module Informix
       begin
         yield stmt
       ensure
-        stmt.free
+        #stmt.free
       end
     end
   end # class Statement
@@ -344,7 +344,7 @@ module Informix
       begin
         yield cur
       ensure
-        cur.free
+        #cur.free
       end
     end
 
@@ -373,7 +373,7 @@ module Informix
       begin
         yield cur
       ensure
-        cur.free
+        #cur.free
       end
     end
   end # module Cursor
