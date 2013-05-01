@@ -15,7 +15,7 @@ spec = Gem::Specification.new do |s|
                     '--exclude' << 'test' << '--exclude' << 'extconf.rb' <<
                     '--inline-source' << '--line-numbers' <<
                     '--main' << 'README'
-  s.extra_rdoc_files << 'README' << 'ext/informixc.c'
+  s.extra_rdoc_files << 'README'
   s.author = 'Gerardo Santana Gomez Garrido'
   s.email = 'gerardo.santana@gmail.com'
   s.homepage = 'http://ruby-informix.rubyforge.org/'
